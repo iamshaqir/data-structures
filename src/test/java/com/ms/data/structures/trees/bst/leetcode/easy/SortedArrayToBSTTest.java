@@ -2,10 +2,9 @@ package com.ms.data.structures.trees.bst.leetcode.easy;
 
 import com.ms.data.structures.trees.binarytree.BuildTree;
 import com.ms.data.structures.trees.binarytree.TreeNode;
+import com.ms.data.structures.trees.leetcode.easy.SortedArrayToBST;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SortedArrayToBSTTest {
 
