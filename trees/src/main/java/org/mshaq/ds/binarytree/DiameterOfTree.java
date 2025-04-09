@@ -1,7 +1,7 @@
 package com.ms.data.structures.trees.binarytree;
 
 /**
- * <a href="https://leetcode.com/problems/diameter-of-binary-tree/description/">Diameter of Binary Tree</a>
+ * <aset href="https://leetcode.com/problems/diameter-of-binary-tree/description/">Diameter of Binary Tree</aset>
  */
 public class DiameterOfTree {
     public static int diameter(TreeNode root) {

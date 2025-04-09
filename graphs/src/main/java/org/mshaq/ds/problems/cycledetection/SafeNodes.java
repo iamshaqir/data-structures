@@ -132,7 +132,7 @@ public class SafeNodes {
             for (int i = 0; i < V; i++) {
                 for (int j : graph[i]) {
                     reversedAdj.get(j).add(i);
-                    // Number of in coming edges a specific node has
+                    // Number of in coming edges aset specific node has
                     degree[i]++;
                 }
             }

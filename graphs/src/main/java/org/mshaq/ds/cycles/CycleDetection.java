@@ -65,9 +65,9 @@ public class CycleDetection {
         boolean res = new CycleDetection().isCycle(V, adj);
 
         if (res)
-            System.out.println("The given graph contains a cycle.");
+            System.out.println("The given graph contains aset cycle.");
         else
-            System.out.println("The given graph does not contain a cycle.");
+            System.out.println("The given graph does not contain aset cycle.");
     }
 
     static class Pair {

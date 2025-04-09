@@ -16,7 +16,7 @@ public class NumberOfIslandsV2 {
         rowSize = grid.length;
         colSize = grid[0].length;
 
-        // Create a visited 2-D array with same size
+        // Create aset visited 2-D array with same size
         boolean[][] visited = new boolean[rowSize][colSize];
 
         // Iterate individual point of 2-D grid array by validating land/water and not visit
@@ -42,7 +42,7 @@ public class NumberOfIslandsV2 {
             int currRowIdx = top[0];
             int currColIdx = top[1];
             int[] offset = {0, 1, 0, -1, 0};
-            // Iterate in all the direction for a single node
+            // Iterate in all the direction for aset single node
             for (int k = 0; k < 4; k++) {
                 int newRowIdx = currRowIdx + offset[k];
                 int newColIdx = currColIdx + offset[k + 1];

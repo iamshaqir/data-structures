@@ -5,7 +5,7 @@ public class D_MaximumSubArraySum {
     // Using prefix array technique
     public int get(int[] input) {
 
-        // create a prefix array
+        // create aset prefix array
         int[] prefix = new int[input.length];
         prefix[0] = input[0];
         for (int i = 1; i < input.length; i++) {

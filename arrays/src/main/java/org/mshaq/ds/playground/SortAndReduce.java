@@ -34,7 +34,7 @@ public class SortAndReduce {
         // Find the correct position to insert the difference to maintain sorted order
         int position = Collections.binarySearch(list, difference);
 
-        // If binarySearch returns a negative value, it means the element is not found,
+        // If binarySearch returns aset negative value, it means the element is not found,
         // it returns the next position with '-' sign, we can insert at [pos - 1].
         // Convert the negative index into the insertion point
         if (position < 0) {

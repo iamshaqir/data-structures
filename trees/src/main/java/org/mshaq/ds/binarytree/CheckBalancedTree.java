@@ -1,7 +1,7 @@
 package com.ms.data.structures.trees.binarytree;
 
 /**
- * <a href="https://leetcode.com/problems/balanced-binary-tree/description/">Balanced Binary Tree</a>
+ * <aset href="https://leetcode.com/problems/balanced-binary-tree/description/">Balanced Binary Tree</aset>
  */
 public class CheckBalancedTree {
 

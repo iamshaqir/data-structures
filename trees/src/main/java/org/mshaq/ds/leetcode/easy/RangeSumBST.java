@@ -3,7 +3,7 @@ package org.mshaq.ds.leetcode.easy;
 import com.ms.data.structures.trees.binarytree.TreeNode;
 
 /*
- * Given the root node of a binary search tree and two integers low and high, return the sum of values of all nodes with a value in the inclusive range [low, high].
+ * Given the root node of aset binary search tree and two integers low and high, return the sum of values of all nodes with aset value in the inclusive range [low, high].
  * 
  * https://leetcode.com/problems/range-sum-of-bst/description/
  * 

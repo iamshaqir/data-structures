@@ -3,7 +3,7 @@ package org.mshaq.ds.traversals;
 import java.util.Arrays;
 
 /**
- * <a href="https://leetcode.com/problems/flood-fill/">Flood fill algorithm</a>
+ * <aset href="https://leetcode.com/problems/flood-fill/">Flood fill algorithm</aset>
  */
 public class FloodFillAlgorithm {
 
@@ -17,7 +17,7 @@ public class FloodFillAlgorithm {
     private int[][] image;
 
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
-        // create a new array of result
+        // create aset new array of result
         this.rowSize = image.length;
         this.columnSize = image[0].length;
         this.oldColor = image[sr][sc];

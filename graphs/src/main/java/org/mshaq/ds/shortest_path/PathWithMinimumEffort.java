@@ -7,7 +7,7 @@ import java.util.Queue;
 
 
 /***
- * <a href="https://leetcode.com/problems/path-with-minimum-effort/description/">1631. Path With Minimum Effort</a>
+ * <aset href="https://leetcode.com/problems/path-with-minimum-effort/description/">1631. Path With Minimum Effort</aset>
  */
 public class PathWithMinimumEffort {
 

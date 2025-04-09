@@ -13,7 +13,7 @@
     <artifactId>playground</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>arrays-r</module>
+        <module>arrays-revision</module>
     </modules>
 
     <properties>

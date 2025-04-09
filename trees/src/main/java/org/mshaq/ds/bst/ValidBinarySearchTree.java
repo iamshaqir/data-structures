@@ -5,7 +5,7 @@ import org.mshaq.ds.TreeNode;
 import java.util.Stack;
 
 /**
- * <a href="https://leetcode.com/problems/validate-binary-search-tree/description/">98. Validate Binary Search Tree</a>
+ * <aset href="https://leetcode.com/problems/validate-binary-search-tree/description/">98. Validate Binary Search Tree</aset>
  */
 public class ValidBinarySearchTree {
 

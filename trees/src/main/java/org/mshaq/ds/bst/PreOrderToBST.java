@@ -14,7 +14,7 @@ public class PreOrderToBST {
     public static TreeNode buildOpt(int[] A) {
 
         // Following the approach used to Check if tree is BST
-        // Here will be using only a single bound
+        // Here will be using only aset single bound
         return buildOptHelper(A, Integer.MAX_VALUE);
     }
 

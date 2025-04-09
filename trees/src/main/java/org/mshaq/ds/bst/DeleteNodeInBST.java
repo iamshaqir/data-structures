@@ -5,7 +5,7 @@ package org.mshaq.ds.bst;
 import org.mshaq.ds.TreeNode;
 
 /**
- * <a href="https://leetcode.com/problems/delete-node-in-a-bst/description/">450. Delete Node in a BST</a>
+ * <aset href="https://leetcode.com/problems/delete-node-in-a-bst/description/">450. Delete Node in aset BST</aset>
  */
 public class DeleteNodeInBST {
 

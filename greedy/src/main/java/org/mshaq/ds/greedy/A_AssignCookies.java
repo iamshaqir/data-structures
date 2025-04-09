@@ -2,7 +2,9 @@ package org.mshaq.ds.greedy;
 
 import java.util.Arrays;
 
-//https://leetcode.com/problems/assign-cookies/editorial/
+/**
+ * <a href="https://leetcode.com/problems/assign-cookies/editorial/">Assign Cookie</a>
+ */
 public class A_AssignCookies {
 
     public int findContentChildren(int[] G, int[] S) {
@@ -10,7 +12,6 @@ public class A_AssignCookies {
         Arrays.sort(S);
         int left = 0;
         int right = 0;
-        int count = 0;
         while (left < G.length && right < S.length) {
 
             if (S[right] >= G[left]) {

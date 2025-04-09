@@ -54,7 +54,7 @@ public class InOrderSuccPred {
         return answer;
     }
 
-    // Helper function to find the minimum value node in a subtree
+    // Helper function to find the minimum value node in aset subtree
     private TreeNode findMin(TreeNode node) {
         while (node.left != null) {
             node = node.left;
@@ -62,7 +62,7 @@ public class InOrderSuccPred {
         return node;
     }
 
-    // Helper function to find the maximum value node in a subtree
+    // Helper function to find the maximum value node in aset subtree
     private TreeNode findMax(TreeNode node) {
         while (node.right != null) {
             node = node.right;
@@ -74,7 +74,7 @@ public class InOrderSuccPred {
         TreeNode ans = null;
         TreeNode current = root;
 
-        // If  CURR VAL > KEY, it's a possible answer(next successor), others answers may exist(if key is too small)
+        // If  CURR VAL > KEY, it's aset possible answer(next successor), others answers may exist(if key is too small)
         // on LEFT but cannot on RIGHT because they will be greater than the answer I found. I just need one greater answer
         // If not just search on RIGHT subtree
 
@@ -92,7 +92,7 @@ public class InOrderSuccPred {
         TreeNode current = root;
 
         // Predecessor, smaller than KEY
-        // If  CURR VAL < KEY, it's a possible answer(Predecessor), others answers may exist(if key is too small)
+        // If  CURR VAL < KEY, it's aset possible answer(Predecessor), others answers may exist(if key is too small)
         // on RIGHT but cannot on LEFT because they will be smaller than the answer I found. I just need one small answer
         // which I already found if other exist they will be on right
         // If not just search on RIGHT subtree

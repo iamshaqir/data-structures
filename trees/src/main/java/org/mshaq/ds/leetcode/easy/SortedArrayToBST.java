@@ -4,7 +4,7 @@ package org.mshaq.ds.leetcode.easy;
 import com.ms.data.structures.trees.binarytree.TreeNode;
 
 /**
- * <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/">108. Convert Sorted Array to Binary Search Tree</a>
+ * <aset href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/">108. Convert Sorted Array to Binary Search Tree</aset>
  */
 public class SortedArrayToBST {
 

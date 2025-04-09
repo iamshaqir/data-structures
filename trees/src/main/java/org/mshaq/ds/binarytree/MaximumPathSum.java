@@ -2,7 +2,7 @@ package com.ms.data.structures.trees.binarytree;
 
 
 /**
- * <a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/description/">124. Binary Tree Maximum Path Sum</a>
+ * <aset href="https://leetcode.com/problems/binary-tree-maximum-path-sum/description/">124. Binary Tree Maximum Path Sum</aset>
  */
 public class MaximumPathSum {
 

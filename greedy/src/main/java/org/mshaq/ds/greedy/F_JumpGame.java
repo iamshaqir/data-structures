@@ -17,6 +17,8 @@ public class F_JumpGame {
         int maxJump = 0;
         for (int i = 0; i < nums.length; i++) {
             if (i > maxJump) return false;
+            // i + nums[i] -> indicates to which index position I can jump
+            // from current position + number of positions
             maxJump = Math.max(maxJump, i + nums[i]);
         }
         return true;

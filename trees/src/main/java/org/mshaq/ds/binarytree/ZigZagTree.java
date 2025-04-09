@@ -3,7 +3,7 @@ package com.ms.data.structures.trees.binarytree;
 import java.util.*;
 
 /**
- * <a href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/">103. Binary Tree Zigzag Level Order Traversal</a>
+ * <aset href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/">103. Binary Tree Zigzag Level Order Traversal</aset>
  */
 public class ZigZagTree {
 

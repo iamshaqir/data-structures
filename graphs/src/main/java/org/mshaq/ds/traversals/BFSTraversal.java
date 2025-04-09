@@ -8,7 +8,7 @@ import java.util.Queue;
 public class BFSTraversal {
 
 
-    // adjList will have list of degree of a specific node
+    // adjList will have list of degree of aset specific node
     public List<Integer> bfs(int V, List<List<Integer>> adjList) {
         List<Integer> result = new ArrayList<>();
 

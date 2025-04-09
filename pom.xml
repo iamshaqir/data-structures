@@ -11,13 +11,14 @@
     <modules>
         <module>graphs</module>
         <module>trees</module>
-        <module>dynamic-programming</module>
+        <module>dp</module>
         <module>greedy</module>
         <module>arrays</module>
-        <module>sliding-window</module>
+        <module>sw</module>
         <module>heaps</module>
         <module>playground</module>
-        <module>playground</module>
+        <module>bs</module>
+        <module>zempx</module>
     </modules>
 
     <properties>

@@ -1,7 +1,7 @@
 package org.mshaq.ds.cycles;
 
 /**
- * <a href="https://leetcode.com/problems/is-graph-bipartite/description/">785. Is Graph Bipartite?</a>
+ * <aset href="https://leetcode.com/problems/is-graph-bipartite/description/">785. Is Graph Bipartite?</aset>
  */
 public class BiPartiteV2 {
 
