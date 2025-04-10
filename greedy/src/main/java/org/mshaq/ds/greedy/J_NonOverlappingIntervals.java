@@ -12,10 +12,10 @@ public class J_NonOverlappingIntervals {
      * 253 Meeting Rooms II
      * 452 Minimum Number of Arrows to Burst Balloons
      *
-     * Non-overlapping intervals are ranges or intervals on aset number line where no two intervals overlap or
-     * intersect with each other. This means for any two intervals [aset,b] and  [c,d] they are non-overlapping if either:
+     * Non-overlapping intervals are ranges or intervals on a number line where no two intervals overlap or
+     * intersect with each other. This means for any two intervals [a,b] and  [c,d] they are non-overlapping if either:
      * b≤c (the end of one interval is less than or equal to the start of the next), or
-     * sd≤aset (the end of the second interval is less than or equal to the start of the first).
+     * d≤a (the end of the second interval is less than or equal to the start of the first).
      */
 
     public int eraseOverlapIntervals(int[][] intervals) {
