@@ -34,10 +34,10 @@ public class L_InsertIntervals {
 
     public int[][] insertBinarySearch(int[][] intervals, int[] newInterval) {
         int start = 0;
-        int end = intervals.length;
+        int end = intervals.length - 1;
         List<int[]> merged = new ArrayList<>();
 
-        while (start < end) {
+        while (start <= end) {
             int middle = start + (end - start) / 2;
             if (intervals[middle][0] < newInterval[0]) {
                 start = middle + 1;
