@@ -1,4 +1,4 @@
-package com.ms.data.structures.queue;
+package data.structures.queue;
 
 
 public class CircularQueue<T> {

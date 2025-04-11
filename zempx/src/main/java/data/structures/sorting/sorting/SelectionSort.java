@@ -1,4 +1,4 @@
-package com.ms.data.structures.sorting;
+package data.structures.sorting.sorting;
 
 /**
  * Selection Sort begins with the element in the 1st position of an unsorted array and scans through

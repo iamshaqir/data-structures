@@ -1,10 +1,7 @@
-package com.ms.data.playground.revision.binarytree;
+package data.playground.revision.binarytree;
 
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.ms.data.structures.trees.binarytree.TreeNode;
 
 public class NodeToLeafNodes {
 

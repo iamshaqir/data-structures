@@ -1,4 +1,4 @@
-package com.ms.data.structures.stacks;
+package data.structures.stacks;
 
 import java.util.Arrays;
 import java.util.Stack;

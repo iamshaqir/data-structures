@@ -1,26 +1,24 @@
-package com.ms.data.playground.revision.binarytree;
+package data.playground.revision.binarytree;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.ms.data.structures.trees.binarytree.TreeNode;
-
 public class MirrorTree {
 
 	public boolean mirrorBFS(TreeNode root) {
-		
+
 		Queue<TreeNode> q = new LinkedList<>();
 		q.add(root.left);
 		q.add(root.right);
-		
+
 		while(!q.isEmpty()) {
 			TreeNode left = q.poll();
 			TreeNode right = q.poll();
-			
+
 			if(left == null && right == null) {
 				continue;
 			}
-			
+
 			if(left == null || right == null || left.val != right.val) {
 				return false;
 			}
@@ -31,8 +29,8 @@ public class MirrorTree {
 		}
 		return true;
 	}
-	
-	public boolean mirrorDFS(TreeNode root) { 
+
+	public boolean mirrorDFS(TreeNode root) {
 		return root == null || helper(root.left, root.right);
 	}
 

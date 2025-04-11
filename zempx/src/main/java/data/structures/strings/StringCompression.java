@@ -1,4 +1,4 @@
-package com.ms.data.structures.strings;
+package data.structures.strings;
 
 public class StringCompression {
 

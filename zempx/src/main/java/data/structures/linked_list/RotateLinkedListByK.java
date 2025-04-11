@@ -1,4 +1,4 @@
-package com.ms.data.structures.linked_list;
+package data.structures.linked_list;
 
 public class RotateLinkedListByK {
 

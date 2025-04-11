@@ -1,6 +1,5 @@
-package com.ms.data.playground.revision.binarytree;
+package data.playground.revision.binarytree;
 
-import com.ms.data.structures.trees.binarytree.TreeNode;
 
 public class ChildrenSumProperty {
 

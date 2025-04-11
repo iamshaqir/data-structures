@@ -1,4 +1,4 @@
-package com.ms.data.structures.queue;
+package data.structures.queue;
 
 import java.util.HashMap;
 import java.util.Map;

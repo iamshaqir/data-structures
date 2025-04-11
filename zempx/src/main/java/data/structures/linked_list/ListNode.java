@@ -1,6 +1,4 @@
-package com.ms.data.structures.linked_list;
-
-import com.ms.data.structures.linked_list.linkedlist.Node;
+package data.structures.linked_list;
 
 public class ListNode {
 

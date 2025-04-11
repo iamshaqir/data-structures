@@ -1,4 +1,4 @@
-package com.ms.data.structures.sorting.playground;
+package data.structures.sorting.playground;
 
 import java.util.Comparator;
 import java.util.List;

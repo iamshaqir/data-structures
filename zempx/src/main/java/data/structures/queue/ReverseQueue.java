@@ -1,4 +1,4 @@
-package com.ms.data.structures.queue;
+package data.structures.queue;
 
 import java.util.Queue;
 import java.util.Stack;

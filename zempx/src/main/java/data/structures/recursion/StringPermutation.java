@@ -1,4 +1,4 @@
-package com.ms.data.structures.recursion;
+package data.structures.recursion;
 
 import java.util.ArrayList;
 import java.util.Arrays;

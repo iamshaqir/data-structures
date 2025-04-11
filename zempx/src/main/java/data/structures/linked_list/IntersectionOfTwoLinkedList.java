@@ -1,10 +1,9 @@
-package com.ms.data.structures.linked_list;
+package data.structures.linked_list;
 
-import com.ms.data.structures.linked_list.linkedlist.Node;
 
-import java.util.HashMap;
+import data.structures.linked_list.linkedlist.Node;
+
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 public class IntersectionOfTwoLinkedList {

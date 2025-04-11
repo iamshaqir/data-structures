@@ -1,4 +1,4 @@
-package com.ms.data.structures.sorting;
+package data.structures.sorting.sorting;
 
 public class QuickSort {
 

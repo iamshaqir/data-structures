@@ -1,6 +1,6 @@
-package com.ms.data.structures.queue;
+package data.structures.queue;
 
-import com.ms.data.structures.stacks.Stack;
+import data.structures.stacks.Stack;
 
 public class LargestRectangleInHistogram {
 

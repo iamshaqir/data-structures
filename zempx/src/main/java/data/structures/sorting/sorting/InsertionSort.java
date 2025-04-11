@@ -1,4 +1,4 @@
-package com.ms.data.structures.sorting;
+package data.structures.sorting.sorting;
 
 /**
  * We begin from the second item as by definition an array with one item is considered to be sorted.

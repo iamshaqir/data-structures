@@ -1,6 +1,4 @@
-package com.ms.data.playground.revision.binarytree;
-
-import com.ms.data.structures.trees.binarytree.TreeNode;
+package data.playground.revision.binarytree;
 
 public class HeightOfTree {
 

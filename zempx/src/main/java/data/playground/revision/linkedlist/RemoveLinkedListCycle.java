@@ -1,7 +1,7 @@
-package com.ms.data.playground.revision.linkedlist;
+package data.playground.revision.linkedlist;
 
-import com.ms.data.structures.linked_list.ListNode;
-import com.ms.data.structures.linked_list.linkedlist.LinkedList;
+
+import data.structures.linked_list.ListNode;
 
 public class RemoveLinkedListCycle {
 

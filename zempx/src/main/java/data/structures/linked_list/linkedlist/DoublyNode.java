@@ -1,4 +1,4 @@
-package com.ms.data.structures.linked_list.linkedlist;
+package data.structures.linked_list.linkedlist;
 
 public class DoublyNode<T> {
 
