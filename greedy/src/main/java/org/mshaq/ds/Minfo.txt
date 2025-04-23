@@ -1,0 +1,20 @@
+In Interval problems,
+1 - Sorting by start time helps you know when a meeting begins.
+2 - Sorting by end time helps you know when a room is freed.
+
+
+G - Merge Intervals:
+------------------------
+- Need to sort the intervals start element in Ascending order to make the interval ranges inline.
+- if current intervals start interval is > previous intervals end interval, then there is no overlapping, just add
+  current interval to result.
+- if not get the maximum from previous intervals end interval and current intervals end interval, change the previous
+  intervals end intervals
+- previous element has already been added to result so it will update interval in its reference
+
+
+When to use start and end in intervals problems and why ??
+
+1. N meetings in room uses end
+2. Erase overlapping uses end
+3. Merge interval, Insert interval use start
