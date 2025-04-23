@@ -13,5 +13,7 @@ Data Structures and Algorithms Using Java
 │   ├── MergeIntervals
 │   ├── InsertIntervals
 │   ├── MeetingRoom2
+│   ├── MinSumTwoNumbers
+│   ├── MaxHeightPyramid
 
 ```
