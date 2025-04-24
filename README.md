@@ -15,5 +15,8 @@ Data Structures and Algorithms Using Java
 │   ├── MeetingRoom2
 │   ├── MinSumTwoNumbers
 │   ├── MaxHeightPyramid
+│   ├── MaxEqualSum3Stacks
+│   ├── FractionalKnapsack
+│   ├── MaxLengthChainPairs
 
 ```
