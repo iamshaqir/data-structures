@@ -18,5 +18,6 @@ Data Structures and Algorithms Using Java
 │   ├── MaxEqualSum3Stacks
 │   ├── FractionalKnapsack
 │   ├── MaxLengthChainPairs
+│   ├── SmallestNumber
 
 ```
