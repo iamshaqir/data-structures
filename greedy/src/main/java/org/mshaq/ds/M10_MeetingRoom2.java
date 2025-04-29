@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Neetcode: <a href="https://neetcode.io/problems/meeting-schedule-ii">Meeting Room 2</a>
- * <p>æ
+ * <p>
  * N Room for given meetings
  */
 public class M10_MeetingRoom2 {
