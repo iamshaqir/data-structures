@@ -29,3 +29,5 @@ Data Structures and Algorithms Using Java
 ### Sliding window
 - [X] Maximum consecutive good numbers
 - [X] Count unique not repeating substrings
+- [X] [Diet Plan Performance](https://takeuforward.org/plus/dsa/problems/diet-plan-performance)
+- [X] [Count SubArray Sum equals to K](https://takeuforward.org/plus/dsa/problems/count-subarrays-with-given-sum)
