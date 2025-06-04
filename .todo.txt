@@ -1,2 +1,0 @@
-1. During revision try Merge Intervals, Meeting room 1/2 and others using Priority Queue.
-2. Learn Flatten and Line Sweep (with sorting) concept which is used in

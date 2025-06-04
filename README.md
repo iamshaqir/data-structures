@@ -31,3 +31,4 @@ Data Structures and Algorithms Using Java
 - [X] Count unique not repeating substrings
 - [X] [Diet Plan Performance](https://takeuforward.org/plus/dsa/problems/diet-plan-performance)
 - [X] [Count SubArray Sum equals to K](https://takeuforward.org/plus/dsa/problems/count-subarrays-with-given-sum)
+- [X] [Find K closest elements](https://leetcode.com/problems/find-k-closest-elements/)
