@@ -33,3 +33,4 @@ Data Structures and Algorithms Using Java
 - [X] [Count SubArray Sum equals to K](https://takeuforward.org/plus/dsa/problems/count-subarrays-with-given-sum)
 - [X] [Find K closest elements](https://leetcode.com/problems/find-k-closest-elements/)
 - [X] [Minimum Swaps to Groups 1's](https://takeuforward.org/plus/dsa/problems/minimum-swaps-to-group-all-1s-together)
+- [X] [Maximum points from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)

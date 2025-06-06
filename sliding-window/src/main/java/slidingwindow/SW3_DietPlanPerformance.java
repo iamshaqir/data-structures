@@ -1,13 +1,6 @@
 package slidingwindow;
 
-
 /**
- * Problem Statement: You are given an array calories representing daily calorie intake,
- * an integer k (length of the consecutive sequence), and two integers lower and upper (calorie thresholds).
- * For each consecutive sequence of k days, calculate the total calories T.
- * If T < lower, lose 1 point. If T > upper, gain 1 point. Otherwise, no change.
- * Start with 0 points and return the final total points.
- * <p>
  * TUF: <a href="https://takeuforward.org/plus/dsa/problems/diet-plan-performance">Diet Plan Performance</a>
  */
 public class SW3_DietPlanPerformance {
@@ -49,10 +42,17 @@ public class SW3_DietPlanPerformance {
 }
 
 /*
+    Problem Statement: You are given an array calories representing daily calorie intake,
+    an integer k (length of the consecutive sequence), and two integers lower and upper (calorie thresholds).
+    For each consecutive sequence of k days, calculate the total calories T.
+    If T < lower, lose 1 point. If T > upper, gain 1 point. Otherwise, no change.
+    Start with 0 points and return the final total points.
+
     Came up with approach but couldn't write logic using single loop
     Was thinking about while loop rather than if condition
     Couldn't come up with condition on how to get access to first element and subtract
 
     Input: calories = [2, 4, 6, 8, 10], k = 2, lower = 7, upper = 9
     Expected Output: 2
- */
+*/
+
