@@ -1,14 +1,37 @@
 package slidingwindow;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.*;
 
 import static java.lang.Math.abs;
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * TUF: <a href="https://takeuforward.org/plus/dsa/problems/k-nearest-integers">K Nearest Integers</a>
  */
 public class SW5_FindKClosestElements {
 
+
+    @Test
+    void findClosestBetter() {
+        int[] A1 = {4, 5, 7, 6, 3, 2};
+        List<Integer> expected = List.of(3, 4, 5);
+        assertAll(
+                () -> assertEquals(expected, findClosestBetter(A1, 3, 4))
+        );
+    }
+
+    @Test
+    void findClosestBrute() {
+        int[] A1 = {4, 5, 7, 6, 3, 2};
+        List<Integer> expected = List.of(3, 4, 5);
+        assertAll(
+                () -> assertEquals(expected, findClosestBrute(A1, 3, 4))
+        );
+
+    }
     // Time Complexity: O(log N + K), where N is the length of arr. O(log N) for binary search and O(K) for collecting the results.
     public List<Integer> findClosestOptimal(int[] A, int k, int x) {
         int start = 0, end = A.length - k;

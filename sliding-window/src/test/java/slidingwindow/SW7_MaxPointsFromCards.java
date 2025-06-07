@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 
 
-class SW7_MaxPointsFromCardsTest {
+class SW7_MaxPointsFromCards {
 
     @Test
     void manager() {
@@ -33,6 +33,28 @@ class SW7_MaxPointsFromCardsTest {
         }
 
         return maxSum;
+    }
+
+    public int maxScoreBrute(int[] A, int k) {
+
+        int n = A.length;
+        int maxScore = 0;
+
+        for (int i = 0; i <= k; i++) {
+            int currentScore = 0;
+
+            for (int j = 0; j < i; j++) {
+                currentScore += A[j];
+            }
+
+            for (int j = 0; j < k - i; j++) {
+                currentScore += A[n - 1 - j];
+            }
+
+            maxScore = Math.max(maxScore, currentScore);
+        }
+
+        return maxScore;
     }
 
 }

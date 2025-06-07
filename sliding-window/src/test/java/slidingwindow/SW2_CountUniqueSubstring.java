@@ -1,7 +1,12 @@
 package slidingwindow;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.HashSet;
 import java.util.Set;
+
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Count Substrings Without Repeating Characters
@@ -17,6 +22,17 @@ import java.util.Set;
  */
 public class SW2_CountUniqueSubstring {
 
+    @Test
+    void countUniqueSubstrings() {
+
+        assertAll(
+                () -> assertEquals(numberOfSpecialSubstrings("abcde"), 15),
+                () -> assertEquals(numberOfSpecialSubstrings("aaaaa"), 5),
+                () -> assertEquals(numberOfSpecialSubstrings("abacaba"), 15),
+                () -> assertEquals(numberOfSpecialSubstrings("topcoder"), 28),
+                () -> assertEquals(numberOfSpecialSubstrings("aa"), 2)
+        );
+    }
     // abcab
     public int numberOfSpecialSubstrings(String s) {
         int count = 0;
