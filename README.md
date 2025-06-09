@@ -36,3 +36,4 @@ Data Structures and Algorithms Using Java
 - [X] [Maximum points from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)
 - [X] [Length of longest substring](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 - [X] [Max consecutive ones](https://takeuforward.org/plus/dsa/sliding-window-and-2-pointer/longest-and-smallest-window-problems/max-consecutive-ones-iii)
+- [X] [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/)
