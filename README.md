@@ -37,3 +37,5 @@ Data Structures and Algorithms Using Java
 - [X] [Length of longest substring](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 - [X] [Max consecutive ones](https://takeuforward.org/plus/dsa/sliding-window-and-2-pointer/longest-and-smallest-window-problems/max-consecutive-ones-iii)
 - [X] [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/)
+- [X] [Character replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [X] [Minimum window string](https://leetcode.com/problems/minimum-window-substring/description/)
