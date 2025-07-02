@@ -1,4 +1,4 @@
-package linkedlist;
+package linkedlist.algo;
 
 public class SinglyLinkedList<T> {
     private int size;
