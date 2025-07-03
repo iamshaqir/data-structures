@@ -8,18 +8,18 @@ public class LL01_ArrayToLinkedList {
 
     @Test
     void arrayToLinkedList() {
-        Node<Integer> head = arrayToLinkedList(A);
+        ListNode head = arrayToLinkedList(A);
         Util.print(head);
     }
 
-    Node<Integer> arrayToLinkedList(int[] A) {
-        Node<Integer> head = new Node<>(A[0]);
+    ListNode arrayToLinkedList(int[] A) {
+        ListNode head = new ListNode(A[0]);
 
-        Node<Integer> previous = head;
+        ListNode previous = head;
         for (int i = 1; i < A.length; i++) {
-            Node<Integer> newNode = new Node<>(A[i], null, previous);
-            previous.next = newNode;
-            previous = newNode;
+            ListNode newListNode = new ListNode(A[i], null, previous);
+            previous.next = newListNode;
+            previous = newListNode;
         }
         return head;
     }

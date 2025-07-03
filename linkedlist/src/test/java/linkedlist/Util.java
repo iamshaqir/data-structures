@@ -1,12 +1,24 @@
 package linkedlist;
 
 public class Util {
-    public static <T> void print(Node<T> node) {
-        Node<T> tempNode = node;
-        while (tempNode != null) {
-            System.out.print(tempNode.data + " -> ");
-            tempNode = tempNode.next;
+    public static void print(ListNode listNode) {
+        ListNode tempListNode = listNode;
+        while (tempListNode != null) {
+            System.out.print(tempListNode.val + " -> ");
+            tempListNode = tempListNode.next;
         }
         System.out.println("null");
+    }
+
+    public static ListNode arrayToLinkedList(int[] A) {
+        ListNode head = new ListNode(A[0]);
+
+        ListNode previous = head;
+        for (int i = 1; i < A.length; i++) {
+            ListNode newListNode = new ListNode(A[i], null, previous);
+            previous.next = newListNode;
+            previous = newListNode;
+        }
+        return head;
     }
 }
