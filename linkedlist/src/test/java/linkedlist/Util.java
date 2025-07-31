@@ -21,4 +21,10 @@ public class Util {
         }
         return head;
     }
+
+    public static ListNode print(int[] A) {
+        ListNode head = arrayToLinkedList(A);
+        print(head);
+        return head;
+    }
 }
