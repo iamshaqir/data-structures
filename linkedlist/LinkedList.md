@@ -23,7 +23,7 @@
     9 -> 9 -> 9 -> 9 -> null
     8 -> 9 -> 9 -> 9 -> 0 -> 0 -> 0 -> 1 -> null
 ```
-![img.png](img.png)
+![img.png](src/test/java/linkedlist/img.png)
 
 ---
 ##### 03 - Odd Even Linked List
