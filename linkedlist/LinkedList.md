@@ -4,6 +4,10 @@
 - [X] [Sort 0's, 1's, 2's Linked List](https://takeuforward.org/plus/dsa/linked-list/logic-building/sort-a-ll-of-0's-1's-and-2's)
 - [X] [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [X] [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [X] [Add One to LinkedList number](https://takeuforward.org/plus/dsa/linked-list/faqs--medium/add-one-to-a-number-represented-by-ll)
+- [X] [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)
+- [X] [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)
+- [X] [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
 
 #####  02 - Adding two numbers
 ```text
@@ -69,5 +73,5 @@
     Given the head of a singly linked list, reverse the list, and return the reversed list.
 
     Input: head = [1,2,3,4,5]
-    Output: [5,4,3,2,1]
+    Output: [5,4,3,2,1]    
 ```
