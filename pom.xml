@@ -13,6 +13,8 @@
         <module>linkedlist</module>
         <module>playground</module>
         <module>sliding-window</module>
+        <module>repaso</module>
+        <module>repaso/r1</module>
     </modules>
 
     <properties>

@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * GeeksForGeeks: <a href="https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1">Job Sequencing problem</a>
+ * TUF: <a href="https://takeuforward.org/plus/dsa/greedy-algorithms/scheduling-and-interval-problems/job-sequencing-problem">Job Sequencing problem</a>
  */
 public class M04_JobSequencingProblem {
 
