@@ -8,6 +8,9 @@
 - [X] [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)
 - [X] [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)
 - [X] [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
+- [X] [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
+- [X] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+- [X] [Linked List Loop Starting Point](https://leetcode.com/problems/linked-list-cycle-ii/description/)
 
 #####  02 - Adding two numbers
 ```text
