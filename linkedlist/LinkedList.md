@@ -11,6 +11,7 @@
 - [X] [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
 - [X] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
 - [X] [Linked List Loop Starting Point](https://leetcode.com/problems/linked-list-cycle-ii/description/)
+- [X] [Length of loop in LL](https://takeuforward.org/plus/dsa/linked-list/faqs--medium/length-of-loop-in-ll)
 
 #####  02 - Adding two numbers
 ```text
