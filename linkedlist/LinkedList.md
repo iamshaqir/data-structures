@@ -14,6 +14,8 @@
 - [X] [Length of loop in LL](https://takeuforward.org/plus/dsa/linked-list/faqs--medium/length-of-loop-in-ll)
 - [X] [Reverse LL in group of given size K](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
 - [X] [Rotate List](https://leetcode.com/problems/rotate-list/description/)
+- [X] [Merge two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+- [X] [Flattening of Singly LL](https://takeuforward.org/plus/dsa/linked-list/faqs--hard/flattening-of-ll)
 
 ### Problems
 
