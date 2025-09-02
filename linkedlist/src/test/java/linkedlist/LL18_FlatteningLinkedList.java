@@ -91,7 +91,6 @@ public class LL18_FlatteningLinkedList {
             head = tail = l2;
             l2 = l2.child;
         }
-        tail.next = null;
         while (l1 != null && l2 != null) {
 
             if (l1.val <= l2.val) {
